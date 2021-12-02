@@ -1,0 +1,16 @@
+{
+  "name": "@xusheng/download-git-repo",
+  "version": "0.0.1",
+  "description": "Download and extract a git repository (Github, GitLab, Bitbucket) from node.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.11",
+    "typescript": "^4.5.2"
+  }
+}
