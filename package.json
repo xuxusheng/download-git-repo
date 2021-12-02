@@ -1,16 +1,23 @@
 {
   "name": "@xusheng/download-git-repo",
   "version": "0.0.1",
+  "author": "许盛:20691718@qq.com",
+  "license": "ISC",
   "description": "Download and extract a git repository (Github, GitLab, Bitbucket) from node.",
   "main": "index.js",
+  "keywords": [],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.11.11",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "prettier": "^2.5.0",
     "typescript": "^4.5.2"
   }
 }
