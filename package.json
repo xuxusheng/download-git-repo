@@ -8,6 +8,7 @@
   "keywords": [],
   "scripts": {
     "prepare": "husky install",
+    "dev": "esno src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "lint-staged": {
@@ -25,6 +26,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
+    "esno": "^0.12.1",
     "husky": "^7.0.4",
     "prettier": "^2.5.0",
     "typescript": "^4.5.2"
